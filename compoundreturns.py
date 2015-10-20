@@ -21,7 +21,7 @@ def compound(initial_equity, compound_rate, duration_years):
 
     compounded_equity = initial_equity
 
-    for _ in range(1, duration_years):
+    for _ in range(0, duration_years):
         annual_return = compounded_equity * compound_rate
         compounded_equity = compounded_equity + annual_return
 
