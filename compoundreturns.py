@@ -16,7 +16,7 @@ def compound(initial_equity, compound_rate, duration_years):
 
     Examples:
         >>> print compound(1000, 0.1, 25)
-        ["The value of $1,000.00 after 25 years at 10% rate is: $9,849.73."]
+        10834.7059434
     """
 
     compounded_equity = initial_equity
